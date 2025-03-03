@@ -120,6 +120,8 @@ npm run dev
 
 🔹 Additional Libraries & Tools: CORS, Axios, JWT Authentication
 
+---
+
 🎉 You're All Set!
 
 Once everything is up and running, open your browser and explore the Online Quiz Platform! 🚀
