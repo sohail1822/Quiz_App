@@ -109,7 +109,9 @@ npm run dev
 
 ### 🏗 Tech Stack Used
 🔹 Backend: Django, Django REST Framework (DRF) , PostgreSQL, JWT Authentication
+
 🔹 Frontend: React , Redux Toolkit, Bootstrap , React Router
+
 🔹 Additional Libraries & Tools: CORS, Axios, JWT Authentication
 
 🎉 You're All Set!
