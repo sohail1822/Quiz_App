@@ -1,23 +1,30 @@
-🎯 Online Quiz Platform
+# 🎯 Online Quiz Platform
 
 Welcome to the Online Quiz Platform, a powerful full-stack web application built with Django REST Framework (DRF) for the backend and React + Redux for the frontend. This system allows users to participate in quizzes, track their progress, and manage quiz-related data efficiently.
 
-🚀 Getting Started
+##  🚀 Getting Started
 
 Follow these steps to set up the project on your local machine.
 
-📌 1. Clone the Repository
+### 📌 1. Clone the Repository
 
+```bash
 git clone https://github.com/your-username/your-repository.git
 cd your-repository
+```
 
-🛠 Backend Setup (Django)
+---
 
-📌 2. Move into the Backend Directory
+## Backend Setup (Django)
 
+
+### 📌 2. Move into the Backend Directory
+
+```bash
 cd backend
+```
 
-📌 3. Set Up a Virtual Environment
+### 📌 3. Set Up a Virtual Environment
 
 # Create a virtual environment
 python -m venv env  
@@ -28,11 +35,13 @@ env\Scripts\activate
 # Activate the environment (Mac/Linux)
 source env/bin/activate  
 
-📌 4. Install Required Packages
+
+###  📌 4. Install Required Packages
 
 pip install -r requirements.txt
 
-📌 5. Run Database Migrations and Start Server
+
+###  📌 5. Run Database Migrations and Start Server
 
 python manage.py migrate
 python manage.py runserver
@@ -41,15 +50,18 @@ python manage.py runserver
 
 ⚛️ Frontend Setup (React)
 
-📌 6. Navigate to the Frontend Folder (Open a New Terminal)
+
+###  📌 6. Navigate to the Frontend Folder (Open a New Terminal)
 
 cd frontend
 
-📌 7. Install Frontend Dependencies
+
+### 📌 7. Install Frontend Dependencies
 
 npm install
 
-📌 8. Start the Development Server
+
+### 📌 8. Start the Development Server
 
 npm run dev
 
