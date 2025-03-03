@@ -75,10 +75,13 @@ npm run dev
 ```bash
 🔹 Your React App is now accessible at: http://localhost:5173/
 ```
+
+---
 ### 📡 API Endpoints Overview
 
 🔗 Base API URL: http://127.0.0.1:8000/api/
 
+---
 ### 🔑 User Authentication
 `POST /api/login/` – Authenticate a user
 
@@ -86,6 +89,7 @@ npm run dev
 
 `GET /api/user/` – Retrieve logged-in user details
 
+---
 ### 📝 Quiz Operations
 `GET /api/quizzes/` – Fetch all quizzes
 
@@ -93,6 +97,7 @@ npm run dev
 
 `GET /api/quizzes/{quiz_id}/` – Get specific quiz details
 
+---
 ### 🎮 Quiz Participation
 `POST /api/my-quizzes/{quiz_id}/start/` – Begin a quiz session
 
@@ -100,10 +105,13 @@ npm run dev
 
 `GET /api/my-quizzes/{quiz_id}/response/` – View quiz attempt results
 
+---
 ### 🛠 Admin Functionalities
 `GET /api/quizzes/{quiz_id}/participants/` – List all users who attempted a quiz
 
 `GET /api/quizzes/{quiz_id}/response/{user_id}/` – Fetch a user’s quiz responses
+
+---
 
 ### 🏗 Tech Stack Used
 🔹 Backend: Django, Django REST Framework (DRF) , PostgreSQL, JWT Authentication
