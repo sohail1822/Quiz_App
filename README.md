@@ -27,51 +27,61 @@ cd backend
 ### 📌 3. Set Up a Virtual Environment
 
 # Create a virtual environment
-python -m venv env  
+```bash
+python -m venv env
+``` 
 
 # Activate the environment (Windows)
+```bash
 env\Scripts\activate  
-
+``` 
 # Activate the environment (Mac/Linux)
+```bash
 source env/bin/activate  
-
+``` 
 
 ###  📌 4. Install Required Packages
-
+```bash
 pip install -r requirements.txt
+``` 
 
 
 ###  📌 5. Run Database Migrations and Start Server
-
+```bash
 python manage.py migrate
+``` 
+```bash
 python manage.py runserver
-
+``` 
+```bash
 🔹 Your Django API is now live at: http://127.0.0.1:8000/
+``` 
 
 ⚛️ Frontend Setup (React)
 
 
 ###  📌 6. Navigate to the Frontend Folder (Open a New Terminal)
-
+```bash
 cd frontend
-
+``` 
 
 ### 📌 7. Install Frontend Dependencies
-
+```bash
 npm install
-
+``` 
 
 ### 📌 8. Start the Development Server
-
+```bash
 npm run dev
-
+```
+```bash
 🔹 Your React App is now accessible at: http://localhost:5173/
-
-📡 API Endpoints Overview
+```
+### 📡 API Endpoints Overview
 
 🔗 Base API URL: http://127.0.0.1:8000/api/
 
-🔑 User Authentication
+### 🔑 User Authentication
 
 POST /api/login/ – Authenticate a user
 
@@ -79,7 +89,7 @@ POST /api/register/ – Create a new account
 
 GET /api/user/ – Retrieve logged-in user details
 
-📝 Quiz Operations
+### 📝 Quiz Operations
 
 GET /api/quizzes/ – Fetch all quizzes
 
@@ -87,7 +97,7 @@ POST /api/quizzes/ – Create a new quiz (Admin only)
 
 GET /api/quizzes/{quiz_id}/ – Get specific quiz details
 
-🎮 Quiz Participation
+### 🎮 Quiz Participation
 
 POST /api/my-quizzes/{quiz_id}/start/ – Begin a quiz session
 
@@ -95,13 +105,13 @@ POST /api/my-quizzes/{quiz_id}/submit/ – Submit quiz responses
 
 GET /api/my-quizzes/{quiz_id}/response/ – View quiz attempt results
 
-🛠 Admin Functionalities
+### 🛠 Admin Functionalities
 
 GET /api/quizzes/{quiz_id}/participants/ – List all users who attempted a quiz
 
 GET /api/quizzes/{quiz_id}/response/{user_id}/ – Fetch a user’s quiz responses
 
-🏗 Tech Stack Used
+### 🏗 Tech Stack Used
 
 🔹 Backend:
 
