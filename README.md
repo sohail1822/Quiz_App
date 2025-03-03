@@ -83,21 +83,28 @@ npm run dev
 
 ### 🔑 User Authentication
 `POST /api/login/` – Authenticate a user
+
 `POST /api/register/` – Create a new account
+
 `GET /api/user/` – Retrieve logged-in user details
 
 ### 📝 Quiz Operations
 `GET /api/quizzes/` – Fetch all quizzes
+
 `POST /api/quizzes/` – Create a new quiz (Admin only)
+
 `GET /api/quizzes/{quiz_id}/` – Get specific quiz details
 
 ### 🎮 Quiz Participation
 `POST /api/my-quizzes/{quiz_id}/start/` – Begin a quiz session
+
 `POST /api/my-quizzes/{quiz_id}/submit/` – Submit quiz responses
+
 `GET /api/my-quizzes/{quiz_id}/response/` – View quiz attempt results
 
 ### 🛠 Admin Functionalities
 `GET /api/quizzes/{quiz_id}/participants/` – List all users who attempted a quiz
+
 `GET /api/quizzes/{quiz_id}/response/{user_id}/` – Fetch a user’s quiz responses
 
 ### 🏗 Tech Stack Used
