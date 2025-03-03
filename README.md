@@ -49,8 +49,6 @@ pip install -r requirements.txt
 ###  📌 5. Run Database Migrations and Start Server
 ```bash
 python manage.py migrate
-``` 
-```bash
 python manage.py runserver
 ``` 
 ```bash
